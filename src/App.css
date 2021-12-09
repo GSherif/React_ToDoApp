@@ -1,3 +1,7 @@
+html{
+  background-color: aliceblue;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.list{
+  list-style: none;
+  width:60%;
+}
+
+.item{
+  border: 2px solid #6495ED;
+  padding: 2%;
+  border-radius: 5px;
+  margin-bottom: 2%;
 }
 
 @keyframes App-logo-spin {
